@@ -1,1 +1,1 @@
-Dynamics NAV
+<span data-ttu-id="dfbe4-101">Dynamics NAV</span><span class="sxs-lookup"><span data-stu-id="dfbe4-101">Dynamics NAV</span></span>

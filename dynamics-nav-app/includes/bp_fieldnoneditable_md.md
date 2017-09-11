@@ -1,1 +1,1 @@
-Non è possibile modificare il contenuto del campo.
+<span data-ttu-id="803bc-101">Non è possibile modificare il contenuto del campo.</span><span class="sxs-lookup"><span data-stu-id="803bc-101">You cannot change the contents of this field.</span></span>

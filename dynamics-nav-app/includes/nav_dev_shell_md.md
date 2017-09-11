@@ -1,1 +1,1 @@
-Shell di sviluppo Microsoft Dynamics NAV 2017
+<span data-ttu-id="e1f7c-101">Shell di sviluppo Microsoft Dynamics NAV 2017</span><span class="sxs-lookup"><span data-stu-id="e1f7c-101">Microsoft Dynamics NAV 2017 Development Shell</span></span>
