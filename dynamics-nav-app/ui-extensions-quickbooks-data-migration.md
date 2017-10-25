@@ -1,35 +1,41 @@
 ---
-title: Migrazione dei dati QuickBooks
+title: Utilizzo dell'estensione per la migrazione QuickBooks
+description: Descrive come utilizzare l'estensione per importare clienti, fornitori, articoli e conti da QuickBooks Desktop a Dynamics NAV.
 author: edupont04
-ms.custom: na
-ms.date: 09/23/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
 ms.prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 6b60b1344a1e18ad91863046110df880f75f7c04
-ms.openlocfilehash: 949771b5f24a3e3c38f1a642e491f9a6e5a36d08
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms. search.keywords: app, add-in, manifest, customize, import, implement
+ms.date: 03/29/2017
+ms.author: edupont
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: 7b8cf77369a2073f746aebdca5d4cbeba80283ec
 ms.contentlocale: it-ch
-ms.lasthandoff: 07/19/2017
+ms.lasthandoff: 10/16/2017
 
 ---
+# <a name="the-quickbooks-data-migration-extension-for-dynamics-nav"></a><span data-ttu-id="400fb-103">Estensione di migrazione dei dati QuickBooks per Dynamics NAV</span><span class="sxs-lookup"><span data-stu-id="400fb-103">The QuickBooks Data Migration Extension for Dynamics NAV</span></span>
+<span data-ttu-id="400fb-104">Questa estensione consente di eseguire la migrazione di clienti, fornitori, articoli e conti da QuickBooks Desktop a [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="400fb-104">This extension makes it easy to migrate customers, vendors, items, and accounts from QuickBooks Desktop to [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="400fb-105">Se l'azienda al momento utilizza QuickBooks, è possibile esportare le informazioni rilevanti e aprire una guida al setup assistito per caricare i dati in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="400fb-105">If your business uses QuickBooks today, you can export the relevant information and then open an assisted setup guide to upload the data to [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>  
+<span data-ttu-id="400fb-106">Per ulteriori informazioni, vedere [Importazione dei dati aziendali da altri sistemi contabili](upload-data.md).</span><span class="sxs-lookup"><span data-stu-id="400fb-106">For more information, see [Importing Business Data from Other Finance Systems](upload-data.md).</span></span>
 
-# <a name="the-quickbooks-data-migration-extension-for-dynamics-nav"></a><span data-ttu-id="2c7a0-102">Estensione di migrazione dei dati QuickBooks per Dynamics NAV</span><span class="sxs-lookup"><span data-stu-id="2c7a0-102">The QuickBooks Data Migration Extension for Dynamics NAV</span></span>
-<span data-ttu-id="2c7a0-103">Questa estensione consente di eseguire la migrazione di clienti, fornitori e articoli da QuickBooks a Dynamics NAV.</span><span class="sxs-lookup"><span data-stu-id="2c7a0-103">This extension makes it easy to migrate customers, vendors, and items from QuickBooks to Dynamics NAV.</span></span> <span data-ttu-id="2c7a0-104">Se l'azienda al momento utilizza QuickBooks, è possibile esportare le informazioni rilevanti e aprire una guida al setup assistito per caricare i dati in Dynamics NAV.</span><span class="sxs-lookup"><span data-stu-id="2c7a0-104">If your business uses QuickBooks today, you can export the relevant information and then open an assisted setup guide to upload the data to Dynamics NAV.</span></span>  
+## <a name="exporting-data-from-quickbooks-desktop"></a><span data-ttu-id="400fb-107">Esportazione di dati da QuickBooks Desktop</span><span class="sxs-lookup"><span data-stu-id="400fb-107">Exporting Data from QuickBooks Desktop</span></span>
+<span data-ttu-id="400fb-108">È necessario aver esportato alcuni o tutti i clienti, i fornitori, gli articoli di magazzino e i conti esistenti in un file IIF (Intuit Interchange Format).</span><span class="sxs-lookup"><span data-stu-id="400fb-108">You must have exported some or all of your existing customers, vendors, inventory items, and accounts to an Intuit Interchange Format (IIF) file.</span></span> <span data-ttu-id="400fb-109">L'estensione per la migrazione dei dati QuickBooks include una mappatura predefinita dei dati QuickBooks affinché i dati esistenti possano essere utilizzati per testare la nuova azienda con [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="400fb-109">The QuickBooks Data Migration extension includes a default mapping of QuickBooks data so that you can use your existing data to test your new [!INCLUDE[d365fin](includes/d365fin_md.md)] company.</span></span> <span data-ttu-id="400fb-110">La mappatura predefinita sarà sufficiente nella maggior parte dei casi, ma è possibile modificare la mappatura nella guida al setup assistito.</span><span class="sxs-lookup"><span data-stu-id="400fb-110">The default mapping will be sufficient in the vast majority of cases, but you can change the mapping in the assisted setup guide.</span></span>  
+<span data-ttu-id="400fb-111">Nel menu File di QuickBooks è presente un'utilità per l'esportazione di elenchi.</span><span class="sxs-lookup"><span data-stu-id="400fb-111">In QuickBooks, the File menu includes a utility to export lists.</span></span> <span data-ttu-id="400fb-112">Ai fini di [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile esportare i seguenti elenchi:</span><span class="sxs-lookup"><span data-stu-id="400fb-112">For the purposes of [!INCLUDE[d365fin](includes/d365fin_md.md)], you can export the following lists:</span></span>
 
-## <a name="exporting-data-from-quickbooks"></a><span data-ttu-id="2c7a0-105">Esportazione dei dati da QuickBooks</span><span class="sxs-lookup"><span data-stu-id="2c7a0-105">Exporting Data from QuickBooks</span></span>
-<span data-ttu-id="2c7a0-106">È necessario aver esportato alcuni o tutti i clienti, i fornitori e gli articoli di magazzino esistenti in un file IIF (Intuit Interchange Format).</span><span class="sxs-lookup"><span data-stu-id="2c7a0-106">You must have exported some or all of your existing customers, vendors, and inventory items to an Intuit Interchange Format (IIF) file.</span></span> <span data-ttu-id="2c7a0-107">L'estensione di migrazione dei dati QuickBooks include una mappatura predefinita dei dati QuickBooks affinché si possano utilizzare i dati esistenti per testare l'azienda con Dynamics NAV.</span><span class="sxs-lookup"><span data-stu-id="2c7a0-107">The QuickBooks Data Migration extension includes a default mapping of QuickBooks data so that you can use your existing data to test your new Dynamics NAV company.</span></span> <span data-ttu-id="2c7a0-108">La mappatura predefinita sarà sufficiente nella maggior parte dei casi, ma è possibile modificare la mappatura nella guida al setup assistito.</span><span class="sxs-lookup"><span data-stu-id="2c7a0-108">The default mapping will be sufficient in the vast majority of cases, but you can change the mapping in the assisted setup guide.</span></span>  
-<span data-ttu-id="2c7a0-109">Nel menu File di QuickBooks è presente un'utilità per l'esportazione di elenchi.</span><span class="sxs-lookup"><span data-stu-id="2c7a0-109">In QuickBooks, the File menu includes a utility to export lists.</span></span> <span data-ttu-id="2c7a0-110">Ai fini di Dynamics NAV, è possibile esportare i seguenti elenchi:</span><span class="sxs-lookup"><span data-stu-id="2c7a0-110">For the purposes of Dynamics NAV, you can export the following lists:</span></span>
-- <span data-ttu-id="2c7a0-111">Elenco clienti</span><span class="sxs-lookup"><span data-stu-id="2c7a0-111">Customer List</span></span>
-- <span data-ttu-id="2c7a0-112">Lista fornitori</span><span class="sxs-lookup"><span data-stu-id="2c7a0-112">Vendor List</span></span>
-- <span data-ttu-id="2c7a0-113">Elenco articoli</span><span class="sxs-lookup"><span data-stu-id="2c7a0-113">Item List</span></span>
-- <span data-ttu-id="2c7a0-114">Lista conti</span><span class="sxs-lookup"><span data-stu-id="2c7a0-114">Account List</span></span>  
+* <span data-ttu-id="400fb-113">Lista clienti</span><span class="sxs-lookup"><span data-stu-id="400fb-113">Customer List</span></span>  
+* <span data-ttu-id="400fb-114">Lista fornitori</span><span class="sxs-lookup"><span data-stu-id="400fb-114">Vendor List</span></span>  
+* <span data-ttu-id="400fb-115">Elenco articoli</span><span class="sxs-lookup"><span data-stu-id="400fb-115">Item List</span></span>  
+* <span data-ttu-id="400fb-116">Lista conti</span><span class="sxs-lookup"><span data-stu-id="400fb-116">Account List</span></span>  
 
-<span data-ttu-id="2c7a0-115">I dati esportati vengono salvati come file IIF, il quale può essere successivamente caricato in Dynamics NAV</span><span class="sxs-lookup"><span data-stu-id="2c7a0-115">The exported data is saved as an IIF file that you can then upload to Dynamics NAV.</span></span>
+<span data-ttu-id="400fb-117">I dati esportati vengono salvati come file IIF, che può essere successivamente caricato in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="400fb-117">The exported data is saved as an IIF file that you can then upload to [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="2c7a0-116">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="2c7a0-116">See Also</span></span>  
-[<span data-ttu-id="2c7a0-117">Personalizzazione di Dynamics NAV utilizzando le estensioni </span><span class="sxs-lookup"><span data-stu-id="2c7a0-117">Customizing Dynamics NAV Using Extensions </span></span>](ui-extensions.md)  
-[<span data-ttu-id="2c7a0-118">Importare i dati da altri sistemi contabili</span><span class="sxs-lookup"><span data-stu-id="2c7a0-118">Import Data from Other Finance Systems</span></span>](upload-data.md)  
+## <a name="finding-the-quickbooks-data-migration-extension"></a><span data-ttu-id="400fb-118">Utilizzo dell'estensione per la migrazione dei dati QuickBooks</span><span class="sxs-lookup"><span data-stu-id="400fb-118">Finding the QuickBooks Data Migration Extension</span></span>
+<span data-ttu-id="400fb-119">L'estensione per la migrazione dei dati QuickBooks si trova nella Guida setup assistito Migrazione dati ed è pronta all'uso.</span><span class="sxs-lookup"><span data-stu-id="400fb-119">The QuickBooks Data Migration extension is installed and ready to go as an integrated part of the Data Migration assisted setup guide.</span></span> <span data-ttu-id="400fb-120">Per utilizzare l'estensione dopo aver esportato i dati da QuickBooks, scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup assistito**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="400fb-120">If you are ready to get started now, and have exported your data from QuickBooks, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Assisted Setup**, and then choose the related link.</span></span> <span data-ttu-id="400fb-121">Scegliere **Migra dati aziendali**, quindi seguire i passaggi nella guida.</span><span class="sxs-lookup"><span data-stu-id="400fb-121">Choose **Migrate business data**, and then follow the steps in the guide.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="400fb-122">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="400fb-122">See Also</span></span>
+[<span data-ttu-id="400fb-123">Importazione dei dati aziendali da altri sistemi contabili</span><span class="sxs-lookup"><span data-stu-id="400fb-123">Importing Business Data from Other Finance Systems</span></span>](upload-data.md)  
+<span data-ttu-id="400fb-124">[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni ](ui-extensions.md)</span><span class="sxs-lookup"><span data-stu-id="400fb-124">[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)</span></span>  
 

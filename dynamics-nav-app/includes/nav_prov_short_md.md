@@ -1,1 +1,1 @@
-<span data-ttu-id="2b2ce-101">strumenti di provisioning</span><span class="sxs-lookup"><span data-stu-id="2b2ce-101">provisioning tools</span></span>
+<span data-ttu-id="722e4-101">strumenti di provisioning</span><span class="sxs-lookup"><span data-stu-id="722e4-101">provisioning tools</span></span>

@@ -1,1 +1,1 @@
-<span data-ttu-id="e66da-101">Microsoft Dynamics NAV 2015</span><span class="sxs-lookup"><span data-stu-id="e66da-101">Microsoft Dynamics NAV 2015</span></span>
+<span data-ttu-id="fe54f-101">Microsoft Dynamics NAV 2015</span><span class="sxs-lookup"><span data-stu-id="fe54f-101">Microsoft Dynamics NAV 2015</span></span>
