@@ -12,33 +12,29 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
-ms.openlocfilehash: b7f857df4ea1aa14107c65dd89142c41e0c55bf1
+ms.sourcegitcommit: a16640e014e157d4dbcaabc53d0df2d3e063f8f9
+ms.openlocfilehash: 1670467e54419a2e229a449f6b14e696e16eb536
 ms.contentlocale: it-ch
-ms.lasthandoff: 10/16/2017
+ms.lasthandoff: 10/26/2017
 
 ---
 # <a name="how-to-create-and-print-a-swiss-vat-statement"></a>Procedura: Come creare e stampare una dichiarazione IVA svizzera
 In base alle informazioni specificate nella finestra **Setup registrazioni IVA**, [!INCLUDE[navnow](../../includes/navnow_md.md)] può creare automaticamente un nuovo setup di registrazioni IVA per il reporting dell'IVA a esigibilità immediata. Prima di eseguire le procedure indicate in questo argomento, verificare che la registrazione IVA sia stata impostata con i valori specificati nei campi cifrati di vendite e acquisti.  
-  
-### <a name="to-set-up-a-swiss-vat-statement-template"></a>Per impostare un modello di dichiarazione IVA svizzera  
-  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Aggiorna definizione dichiarazione IVA**, quindi scegliere il collegamento correlato.  
-  
-2.  Selezionare una definizione nel campo **Nome definizione dichiarazione IVA**. Per ulteriori informazioni sulla creazione di una nuova definizione, vedere Definizione dichiarazione IVA.  
-  
+
+## <a name="to-set-up-a-swiss-vat-statement-template"></a>Per impostare un modello di dichiarazione IVA svizzera  
+
+1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Aggiorna definizione dichiarazione IVA**, quindi scegliere il collegamento correlato.  
+2.  Selezionare una definizione nel campo **Nome definizione dichiarazione IVA**.
 3.  Scegliere il pulsante **OK**. Selezionare il pulsante **Sì** per confermare che si desidera creare una nuova definizione.  
-  
 4.  Verificare la dichiarazione IVA risultante e modificarla in base alle esigenze.  
-  
+
      La pagina Dichiarazione IVA contiene il campo **Crittografia dichiarazione IVA**, che indica la crittografia del report con cui verrà stampato il risultato. Questo campo viene popolato automaticamente dal processo batch in base alle informazioni della finestra **Setup registrazioni IVA**. Il campo può essere modificato, se necessario.  
-  
-### <a name="to-print-the-swiss-vat-statement"></a>Per stampare la dichiarazione IVA svizzera  
-  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Dichiarazione IVA svizzera**, quindi scegliere il collegamento correlato.  
-  
+
+## <a name="to-print-the-swiss-vat-statement"></a>Per stampare la dichiarazione IVA svizzera  
+
+1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Dichiarazione IVA svizzera**, quindi scegliere il collegamento correlato.  
 2.  Nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella riportata di seguito.  
-  
+
     |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
     |**Data inizio**|Immettere la data in cui si desidera che inizi l'intervallo di tempo per le righe della dichiarazione IVA visualizzate nel report.|  
@@ -52,8 +48,8 @@ In base alle informazioni specificate nella finestra **Setup registrazioni IVA**
     |**Normale (Altra aliquota) %**|Immettere un'aliquota IVA alternativa per le transazioni standard applicabile a determinate transazioni durante il periodo di tempo.|  
     |**Ridotta (Altra aliquota) %**|Immettere un'aliquota IVA alternativa per altre transazioni applicabile a determinate transazioni durante il periodo di tempo.|  
     |**Alloggio (altra aliquota) %**|Immettere un'aliquota IVA alternativa per alloggi applicabile a determinate transazioni durante il periodo di tempo.|  
-    |**Mostra importi in valuta contabile addizionale**|Selezionare questa opzione per visualizzare una valuta contabile addizionale. Per ulteriori informazioni, vedere [Informazioni sull'utilizzo delle valute di reporting aggiuntive](about-using-additional-reporting-currencies.md).|  
-  
+    |**Mostra importi in valuta contabile addizionale**|Selezionare questa opzione per visualizzare una valuta contabile addizionale.|  
+
 ## <a name="see-also"></a>Vedere anche  
- [IVA svizzera](swiss-value-added-tax.md)   
- Dichiarazione IVA Svizzera
+ [IVA svizzera](swiss-value-added-tax.md)
+
