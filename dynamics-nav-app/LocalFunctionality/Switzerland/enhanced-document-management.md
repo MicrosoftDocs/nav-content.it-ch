@@ -54,5 +54,4 @@ In [!INCLUDE[navnow](../../includes/navnow_md.md)], è possibile archiviare docu
 ## <a name="see-also"></a>Vedere anche  
  [Procedura: Creare ordini di vendita programmati](../../sales-how-to-create-blanket-sales-orders.md)   
  [Procedura: Tenere traccia delle righe dei documenti](how-to-track-document-lines.md)   
- [Funzionalità locale per la Germania](../Germany/germany-local-functionality.md)
 
