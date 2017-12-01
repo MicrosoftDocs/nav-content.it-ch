@@ -3,7 +3,7 @@ title: Come bloccare gli articoli in magazzino per le vendite o gli acquisti
 description: "In [!INCLUDE[navnow](../../includes/navnow_md.md)], un articolo può essere contrassegnato come bloccato per la vendita, per l'acquisto o per tutti gli scopi."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
-ms.openlocfilehash: 7e2559aca6a8b73bcd11ea6251dee13b30f7267b
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: d18179bf9b7a0dd2dc8ee273eef564ee049702d2
 ms.contentlocale: it-ch
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="how-to-block-inventory-items-for-sales-or-purchases"></a><span data-ttu-id="1d2ce-103">Procedura: Bloccare gli articoli in magazzino per le vendite o gli acquisti</span><span class="sxs-lookup"><span data-stu-id="1d2ce-103">How to: Block Inventory Items for Sales or Purchases</span></span>

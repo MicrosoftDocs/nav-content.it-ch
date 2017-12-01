@@ -3,7 +3,7 @@ title: 'Procedura: Elaborare una riscossione LSV'
 description: "Utilizzare **Registrazioni LSV** per creare ed elaborare i pagamenti di clienti Lastschrift Verfahren (LSV+). È possibile registrare questi pagamenti nella registrazione incassi, creare un file LSV e stampare il RIBA."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a16640e014e157d4dbcaabc53d0df2d3e063f8f9
-ms.openlocfilehash: a7503fec71d315d3a2bf4e9e1e3a734209990e14
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: e68c61cdfff93b2642714d3d736e139079079665
 ms.contentlocale: it-ch
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="how-to-process-an-lsv-collection"></a><span data-ttu-id="fa32c-104">Procedura: Elaborare una riscossione LSV</span><span class="sxs-lookup"><span data-stu-id="fa32c-104">How to: Process an LSV Collection</span></span>

@@ -3,7 +3,7 @@ title: 'Procedura: Inviare pagamenti DTA'
 description: "Per inviare pagamenti DatenTrägerAustausch (DTA) alla banca per il pagamento, è necessario eseguire determinate attività."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a16640e014e157d4dbcaabc53d0df2d3e063f8f9
-ms.openlocfilehash: bf79d68ddb398672cccec48812266b8808e1e714
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: 81e10c740ffe491338fc1d94fea6ef00ec930d3c
 ms.contentlocale: it-ch
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="how-to-submit-dta-payments"></a><span data-ttu-id="b65f3-103">Procedura: Inviare pagamenti DTA</span><span class="sxs-lookup"><span data-stu-id="b65f3-103">How to: Submit DTA Payments</span></span>

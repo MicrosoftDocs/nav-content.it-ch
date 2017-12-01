@@ -3,7 +3,7 @@ title: Come impostare solleciti di consegna
 description: "In [!INCLUDE[navnow](../../includes/navnow_md.md)], è possibile usare solleciti di consegna per segnalare ai fornitori le consegne scadute."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
-ms.openlocfilehash: 436680a413482264196240d40a3063e9537c8ce2
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: 8895148c8e969f1d4cf95c21924940668fdd6bf3
 ms.contentlocale: it-ch
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="how-to-set-up-delivery-reminders"></a><span data-ttu-id="94746-103">Procedura: Impostare solleciti di consegna</span><span class="sxs-lookup"><span data-stu-id="94746-103">How to: Set Up Delivery Reminders</span></span>

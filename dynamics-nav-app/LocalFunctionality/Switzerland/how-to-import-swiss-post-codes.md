@@ -3,7 +3,7 @@ title: 'Procedura: Importare codici postali svizzeri'
 description: "È possibile importare l'ultimo file di codice postale e utilizzarlo per aggiornare la tabella **CAP**. Il file di codice postale può essere scaricato dal sito Web dei codici postali svizzeri. Dopo l'importazione del codice postale più recente, è possibile definire i codici postali per i clienti o i fornitori."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a16640e014e157d4dbcaabc53d0df2d3e063f8f9
-ms.openlocfilehash: 176518028f3174c86266d42dccd2159a41b577b6
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: c124c0190999a5476e7d99262fe127f16d8d37b3
 ms.contentlocale: it-ch
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="how-to-import-swiss-post-codes"></a><span data-ttu-id="4b566-105">Procedura: Importare codici NPA svizzeri</span><span class="sxs-lookup"><span data-stu-id="4b566-105">How to: Import Swiss Post Codes</span></span>

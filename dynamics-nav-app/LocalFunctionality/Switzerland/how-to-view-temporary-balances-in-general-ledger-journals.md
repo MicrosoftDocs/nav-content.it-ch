@@ -3,7 +3,7 @@ title: "Come visualizzare i saldi temporanei nelle registrazioni di contabilità
 description: "Quando si immette una nuova transazione nelle registrazioni COGE, è possibile visualizzare i saldi temporanei che indicano come i saldi dei conti di contabilità generale saranno interessati dalle registrazioni. È possibile visualizzare i dettagli del saldo del conto e del conto di contropartita per la riga delle registrazioni attiva. È inoltre possibile visualizzare i valori non registrati per le registrazioni correnti."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
-ms.openlocfilehash: aeabed2f646f99a765491b0a651016577d2a2924
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: 2acfc827beab7f0b1af928320a7ee0e462de96c1
 ms.contentlocale: it-ch
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="how-to-view-temporary-balances-in-general-ledger-journals"></a><span data-ttu-id="e07c5-105">Procedura: Visualizzare i saldi temporanei nelle registrazioni di contabilità generale</span><span class="sxs-lookup"><span data-stu-id="e07c5-105">How to: View Temporary Balances in General Ledger Journals</span></span>
