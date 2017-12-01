@@ -3,7 +3,7 @@ title: 'Procedura: Stampare una lista prelievi magazzino da un ordine di vendita
 description: "È possibile stampare una lista prelievi magazzino direttamente da un ordine di vendita."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

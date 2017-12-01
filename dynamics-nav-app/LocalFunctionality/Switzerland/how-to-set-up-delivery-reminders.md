@@ -3,7 +3,7 @@ title: Come impostare solleciti di consegna
 description: "In [!INCLUDE[navnow](../../includes/navnow_md.md)], è possibile usare solleciti di consegna per segnalare ai fornitori le consegne scadute."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

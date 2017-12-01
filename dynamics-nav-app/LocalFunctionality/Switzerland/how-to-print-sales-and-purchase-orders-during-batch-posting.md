@@ -3,7 +3,7 @@ title: Come stampare ordini di acquisto e vendita durante la registrazione batch
 description: "Dopo che gli ordini di vendita e acquisto sono stati registrati tramite processo batch, è possibile stampare i documenti registrati corrispondenti."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

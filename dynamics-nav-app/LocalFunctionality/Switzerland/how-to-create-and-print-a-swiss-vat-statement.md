@@ -3,7 +3,7 @@ title: Come creare e stampare una dichiarazione IVA svizzera
 description: "In base alle informazioni specificate nella finestra **Setup registrazioni IVA**, [!INCLUDE[navnow](../../includes/navnow_md.md)] può creare automaticamente un nuovo setup di registrazioni IVA per il reporting dell'IVA a esigibilità immediata. Prima di eseguire le procedure indicate in questo argomento, verificare che la registrazione IVA sia stata impostata con i valori specificati nei campi cifrati di vendite e acquisti."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

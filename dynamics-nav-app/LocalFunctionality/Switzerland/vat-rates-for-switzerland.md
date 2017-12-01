@@ -3,7 +3,7 @@ title: Aliquote IVA per la Svizzera
 description: "Se le aliquote IVA variano, è necessario usare lo strumento di modifica aliquota IVA. Nelle versioni precedenti di [!INCLUDE[navnow](../../includes/navnow_md.md)] era possibile usare contemporaneamente per le transazioni sia l'aliquota IVA precedente che quella nuova, a seconda delle date di spedizione. Questa funzionalità è stata deprecata."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

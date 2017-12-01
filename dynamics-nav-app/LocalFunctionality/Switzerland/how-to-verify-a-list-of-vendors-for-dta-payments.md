@@ -3,7 +3,7 @@ title: Come verificare una lista di fornitori per pagamenti DTA
 description: "Il report di registrazioni pagamenti DatenTrägerAustausch (DTA) visualizza le informazioni per ogni riga di pagamento. È anche possibile visualizzare i commenti nella colonna relativa. Il report include informazioni sul numero di registrazioni, l'importo di registrazione più elevato e l'importo totale in valuta locale ed estera."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

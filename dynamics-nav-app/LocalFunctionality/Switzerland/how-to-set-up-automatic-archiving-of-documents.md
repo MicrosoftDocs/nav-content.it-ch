@@ -3,7 +3,7 @@ title: Come impostare l'archiviazione automatica dei documenti
 description: "È possibile impostare l'archiviazione automatica di documenti di vendita e di acquisto, ad esempio offerte, ordini programmati e ordini, prima di eliminarli."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

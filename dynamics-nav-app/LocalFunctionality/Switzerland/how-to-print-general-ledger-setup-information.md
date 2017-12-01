@@ -3,7 +3,7 @@ title: "Come stampare le informazioni di setup della contabilità generale"
 description: "Prima di usare [!INCLUDE[navnow](../../includes/navnow_md.md)] nelle attività giornaliere, è possibile eseguire il report **Informazioni setup C/G** per visualizzare i dati master configurati."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

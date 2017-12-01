@@ -3,7 +3,7 @@ title: Come esportare pagamenti tramite EZAG
 description: "È possibile generare un file per il pagamento elettronico tramite il metodo EZAG (Elektronischer Zahlungsauftrag) ed esportarlo alla banca per essere usato per i pagamenti."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

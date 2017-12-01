@@ -3,7 +3,7 @@ title: Come copiare articoli esistenti in nuovi articoli
 description: "È possibile raggruppare articoli con impostazioni analoghe in un catalogo articoli. Quando si aggiunge un nuovo articolo, per risparmiare tempo è possibile usare l'opzione **Articolo copia** per copiare un articolo esistente da usare come modello per un nuovo articolo."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

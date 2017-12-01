@@ -3,7 +3,7 @@ title: 'Procedura: Suggerire pagamenti DTA ai fornitori'
 description: "È possibile suggerire i pagamenti fornitori utilizzando le registrazioni di pagamento e trasferire le fatture scadute nelle registrazioni per i singoli fornitori. È inoltre possibile esaminare ogni fornitore per note di credito aperte o pagamenti aperti e creare un elenco di fornitori per l'elaborazione DatenTrägerAustausch (DTA)."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

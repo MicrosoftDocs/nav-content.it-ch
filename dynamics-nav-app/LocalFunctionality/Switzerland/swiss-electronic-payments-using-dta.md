@@ -3,7 +3,7 @@ title: Pagamenti elettronici svizzeri tramite DTA
 description: "In [!INCLUDE[navnow](../../includes/navnow_md.md)] è possibile eseguire pagamenti elettronici per le fatture tramite il metodo DatenTrägerAustausch (DTA). Le banche svizzere utilizzano il metodo di pagamento elettronico DTA per liquidare pagamenti in modo efficiente tramite record di pagamenti standardizzati."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

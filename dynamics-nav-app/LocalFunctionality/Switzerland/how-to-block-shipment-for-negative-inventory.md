@@ -3,7 +3,7 @@ title: Come bloccare la spedizione per le giacenze negative
 description: "È possibile bloccare la spedizione in uscita per un articolo quando una transazione restituisce come risultato una giacenza negativa per tale articolo."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

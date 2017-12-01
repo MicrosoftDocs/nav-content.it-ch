@@ -3,7 +3,7 @@ title: Come stampare report di test per i solleciti di consegna
 description: "Dopo avere creato i solleciti di consegna e apportato le modifiche necessarie, è possibile stampare i report di test o emettere i solleciti di consegna."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

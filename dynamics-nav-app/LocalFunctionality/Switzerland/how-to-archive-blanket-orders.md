@@ -3,7 +3,7 @@ title: Come archiviare ordini programmati
 description: "È possibile archiviare un ordine programmato di acquisto o di vendita ed è possibile usare l'ordine programmato archiviato per creare un ordine."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

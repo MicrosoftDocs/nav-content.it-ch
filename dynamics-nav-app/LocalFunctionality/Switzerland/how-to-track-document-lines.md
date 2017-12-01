@@ -3,7 +3,7 @@ title: Come tenere traccia delle righe dei documenti
 description: "È possibile usare la possibilità di tenere traccia dei documenti per visualizzare i documenti correlati alle righe ordine di vendita e ordine di acquisto per ordini e ordini archiviati. È inoltre possibile visualizzare una panoramica dei documenti correlati alle righe ordine,"
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
