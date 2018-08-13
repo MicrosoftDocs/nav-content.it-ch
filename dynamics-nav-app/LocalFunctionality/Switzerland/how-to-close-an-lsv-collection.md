@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
-ms.openlocfilehash: 6af8c37a393f098ebebe266d380ffe417bb156db
+ms.sourcegitcommit: 2f7b7db12069fd9f93a616077ea2b61393c1e9a3
+ms.openlocfilehash: 1938c6daa932703d3b72e7f77e763763b7045cf0
 ms.contentlocale: it-ch
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 08/13/2018
 
 ---
 # <a name="how-to-close-an-lsv-collection"></a><span data-ttu-id="cef0a-104">Procedura: Chiudere una riscossione LSV</span><span class="sxs-lookup"><span data-stu-id="cef0a-104">How to: Close an LSV Collection</span></span>
@@ -25,17 +25,17 @@ ms.lasthandoff: 12/01/2017
 
 ## <a name="to-close-an-lsv-collection"></a><span data-ttu-id="cef0a-113">Per chiudere una riscossione LSV</span><span class="sxs-lookup"><span data-stu-id="cef0a-113">To close an LSV collection</span></span>  
 
-1.  <span data-ttu-id="cef0a-114">Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Cerca pagina o report"), immettere **Lista registrazioni LSV**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="cef0a-114">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **LSV Journal List**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="cef0a-115">Selezionare la riga delle registrazioni richiesta e scegliere l'azione **Modifica data di registrazione**.</span><span class="sxs-lookup"><span data-stu-id="cef0a-115">Select the required journal line, and then choose the **Modify Posting Date** action.</span></span> <span data-ttu-id="cef0a-116">In questo modo verrà modificato il valore nel campo **Data movimento Avere** usando il valore suggerito durante la riscossione LSV.</span><span class="sxs-lookup"><span data-stu-id="cef0a-116">This will modify the value in the **Credit Date** field by using the value suggested during the LSV collection.</span></span>  
-3.  <span data-ttu-id="cef0a-117">Nel campo **Nuova data** immettere la nuova data.</span><span class="sxs-lookup"><span data-stu-id="cef0a-117">In the **New Date** field, enter the new date.</span></span>  
-4.  <span data-ttu-id="cef0a-118">Scegliere l'azione **Chiudi riscossione**.</span><span class="sxs-lookup"><span data-stu-id="cef0a-118">Choose the **Close Collection* action*.</span></span>  
+1. <span data-ttu-id="cef0a-114">Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Cerca pagina o report"), immettere **Lista registrazioni LSV**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="cef0a-114">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **LSV Journal List**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="cef0a-115">Selezionare la riga delle registrazioni richiesta e scegliere l'azione **Modifica data di registrazione**.</span><span class="sxs-lookup"><span data-stu-id="cef0a-115">Select the required journal line, and then choose the **Modify Posting Date** action.</span></span> <span data-ttu-id="cef0a-116">In questo modo verrà modificato il valore nel campo **Data movimento Avere** usando il valore suggerito durante la riscossione LSV.</span><span class="sxs-lookup"><span data-stu-id="cef0a-116">This will modify the value in the **Credit Date** field by using the value suggested during the LSV collection.</span></span>  
+3. <span data-ttu-id="cef0a-117">Nel campo **Nuova data** immettere la nuova data.</span><span class="sxs-lookup"><span data-stu-id="cef0a-117">In the **New Date** field, enter the new date.</span></span>  
+4. <span data-ttu-id="cef0a-118">Scegliere l'azione **Chiudi riscossione**.</span><span class="sxs-lookup"><span data-stu-id="cef0a-118">Choose the **Close Collection* action*.</span></span>  
 
-    > [!NOTE]  
-    >  <span data-ttu-id="cef0a-119">I campi nella Scheda dettaglio **Opzioni** per il processo batch **Chiudi riscossione LSV** non possono essere modificati e corrispondono alla riga di registrazioni selezionata.</span><span class="sxs-lookup"><span data-stu-id="cef0a-119">The fields on the **Options** FastTab for the **LSV Close Collection** batch job cannot be modified, and correspond to the selected journal line.</span></span>  
+   > [!NOTE]  
+   >  <span data-ttu-id="cef0a-119">I campi nella Scheda dettaglio **Opzioni** per il processo batch **Chiudi riscossione LSV** non possono essere modificati e corrispondono alla riga di registrazioni selezionata.</span><span class="sxs-lookup"><span data-stu-id="cef0a-119">The fields on the **Options** FastTab for the **LSV Close Collection** batch job cannot be modified, and correspond to the selected journal line.</span></span>  
 
-5.  <span data-ttu-id="cef0a-120">Scegliere il pulsante **OK**.</span><span class="sxs-lookup"><span data-stu-id="cef0a-120">Choose the **OK** button.</span></span>  
+5. <span data-ttu-id="cef0a-120">Scegliere il pulsante **OK**.</span><span class="sxs-lookup"><span data-stu-id="cef0a-120">Choose the **OK** button.</span></span>  
 
-    <span data-ttu-id="cef0a-121">Nella finestra **Lista registrazioni LSV** il valore del campo **Stato LSV** viene modificato da **Modifica** a **Rilasciato**.</span><span class="sxs-lookup"><span data-stu-id="cef0a-121">In the **LSV Journal List** window, the value in the **LSV Status** field is changed from **Edit** to **Released**.</span></span> <span data-ttu-id="cef0a-122">Le righe di registrazioni non possono più essere modificate.</span><span class="sxs-lookup"><span data-stu-id="cef0a-122">The journal lines can no longer be modified.</span></span>  
+   <span data-ttu-id="cef0a-121">Nella finestra **Lista registrazioni LSV** il valore del campo **Stato LSV** viene modificato da **Modifica** a **Rilasciato**.</span><span class="sxs-lookup"><span data-stu-id="cef0a-121">In the **LSV Journal List** window, the value in the **LSV Status** field is changed from **Edit** to **Released**.</span></span> <span data-ttu-id="cef0a-122">Le righe di registrazioni non possono più essere modificate.</span><span class="sxs-lookup"><span data-stu-id="cef0a-122">The journal lines can no longer be modified.</span></span>  
 
 ## <a name="to-reopen-an-lsv-collection"></a><span data-ttu-id="cef0a-123">Per riaprire una riscossione LSV</span><span class="sxs-lookup"><span data-stu-id="cef0a-123">To reopen an LSV collection</span></span>  
 
